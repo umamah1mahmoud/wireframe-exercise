@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Nav Items <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 90px;
+    background-color:rgb(58, 58, 58) ;
+}
+
+nav img{
+    margin-top: 10px;
+    margin-left: 195px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+nav ul{
+    margin-top: 30px;
+    display: inline;
+    float: right;
+    margin-right: 250px;
+   
+}
+
+nav ul li{
+    display: inline;
+    float: right;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> main <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+main{
+    clear:both;
+    margin-left: 195px; margin-right: 195px;
+}
+
+main :first-child{
+    display: block;
+    margin-left:auto; margin-right: auto;
+}   
+
+main :nth-child(2) img{
+    display: inline;
+    margin-top: 30px;
+}
+
+
+main :nth-child(2) :nth-child(3){
+    float: right;
+}
+
+
+
+main :nth-child(3) :first-child{
+    width:50%;
+    float: left;
+    margin-right: 30px;
+}
+
+main :nth-child(3) :nth-child(2){
+    margin-top: 30px;
+    height: 350px;
+    width: 448px;
+    overflow: scroll;
+}
+
+main :nth-child(3) p{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 10px; padding-bottom: 10px; padding-left: 40px; padding-right: 40px;
+    background-color: #000000;
+    color: #CCCCCC;
+    border-radius: 5px;
+    transition-delay: 350ms;
+
+}
+
+main :nth-child(3) p:hover{
+    display: inline-block;
+    margin-top: 15px;
+    padding-top: 10px; padding-bottom: 10px; padding-left: 40px; padding-right: 40px;
+    background-color: #bebdbd;
+    color: white;
+    border-radius: 10px;
+    transition-delay: 350ms;
+
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+footer{
+    margin-top: 30px;
+    margin-left: 195px; margin-right: 195px;
+    height: 100px;
+    background-color: gray;
+}
